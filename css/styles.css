@@ -19,16 +19,7 @@ body {
   margin: 10px 15px 10px 0;
 }
 
-a:link {
- text-decoration: none;
-}
-a:visited {
- text-decoration: none;
-}
-a:hover {
- text-decoration: none;
-}
-a:active {
+a:link, a:visited, a:hover, a:active {
  text-decoration: none;
 }
 
@@ -36,7 +27,7 @@ a:active {
   padding-top: 25px;
 }
 
-.navbar-brand h1 { /* Restaurant name */
+.navbar-brand h1 { /* nome do time */
   font-family: 'Abel', sans-serif;
   color: #ff66b3;
   font-size: 2em;
@@ -50,14 +41,15 @@ a:active {
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
-.navbar-brand p { /* Kosher cert */
+.navbar-brand p { /* 1 time de esports da baixada fluminense */
   color: #ff66b3;
   text-transform: uppercase;
   font-size: .7em;
   margin-top: 15px;
 }
-.navbar-brand p span { /* Star-K */
+.navbar-brand p span { 
   vertical-align: middle;
+  margin-left: 5px;
 }
 
 #nav-list {
@@ -77,11 +69,11 @@ a:active {
 #phone {
   margin-top: 5px;
 }
-#phone a { /* Phone number */
+#phone a { /* numero de telefone */
   text-align: right;
   padding-bottom: 0;
 }
-#phone div { /* We Deliver */
+#phone div { /* entre em contato */
   color: #009933;
   text-align: right;
   padding-right: 15px;
@@ -91,33 +83,32 @@ a:active {
   border: 2px solid #009933;
 }
 
-.idealizadores span{
+.idealizadores{
+  margin-bottom: 50%;
+}
+
+.tituloideal{
+ font-size: 2em;
+ text-align: center;
+ margin: 5% auto 5%;
+
+}
+
+.nomefundadores {
   text-align: center;
-  font-size: 2em;
-  margin-left: 400px; 
-  line-height: 100px;
-
+  margin: 10% auto auto;
 }
 
-.nomefundadores span{
-  font-size: 1.3em;
-  line-height: 150px;
-  margin-left: 150px;
-  color: #fff;
-}
-
-.fotofundadores img{
+.fotofundadores {
   width: 200px;
-  height: 200px;
   border-radius: 100px;
-  margin-left: 170px;
-  margin-top: -30px;
+  display: block;
+  margin: 5% auto;
 }
 
 .textofundadores{
-  font-size: 1em;
-  line-height: 90px;
-  margin-left: 40px;
+  margin-bottom: 10%;
+  text-align: center;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
@@ -128,11 +119,15 @@ a:active {
   margin-top: -30px;
 }
 
-span.discord{
+span.discord {
   color: #008ae6;
 }
-span.whatsapp{
+span.whatsapp {
   color: #00e600;
+}
+
+.page-mg{
+  margin-bottom: 15%;
 }
 
 /* END HEADER */
@@ -159,11 +154,19 @@ span.whatsapp{
   opacity: .8;
 }
 
-.category-tile img{
 
-}
 .category-tile:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+.portfolio{
+  margin-top: 2%;
+  text-align: center;
+}
+
+.miguel-social{
+  color: #ff66b3;
+  margin: auto 0.5%;
 }
 
 /********** Large devices only **********/
@@ -190,56 +193,34 @@ span.whatsapp{
     height: 744px;
   }
 
-  .navbar-brand p { /* Kosher cert */
+  .navbar-brand p { /* 1 time de esports da baixada fluminense */
    color: #ff66b3;
    text-transform: uppercase;
    font-size: .6em;
    margin-top: 10px;
   }
-  .idealizadores span{
-   text-align: center;
-   font-size: 2em;
-   margin-left: 310px;
+
+  .idealizadores{
+    margin-bottom: 60%;
+
   }
-
- .nomefundadores span{
-   font-size: 1.3em;
-   line-height: 150px;
-   margin-left: 120px;
-   color: #fff;
-  }
-
- .fotofundadores img{
-   width: 200px;
-   height: 200px;
-   border-radius: 100px;
-   margin-left: 140px;
-   margin-top: -30px;
-  }
-
- .textofundadores{
-   font-size: 0.8em;
-   line-height: 90px;
-   margin-left: 55px;
-  }
-
-
-
-  /* End Header */
+  
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
 
-  .navbar-brand p { /* Kosher cert */
+
+  .navbar-brand p { /* 1 time de esports da baixa fluminense */
    color: #ff66b3;
    text-transform: uppercase;
    font-size: .7em;
    margin-top: -25px;
    margin-left: 395px;
   }
-  .navbar-brand p span { /* Star-K */
+  .navbar-brand p span { 
    
+   font-size: 0.9em;
 
   }
 
@@ -275,33 +256,15 @@ span.whatsapp{
     border: 0px;
   }
 
-  .idealizadores span{
-   text-align: center;
-   font-size: 1.7em;
-   margin-left: 215px;
+  .idealizadores{
+    margin-bottom: 130%;
   }
 
-  .nomefundadores span{
-   font-size: 1.3em;
-   line-height: 150px;
-   margin-left: 230px;
-   color: #fff;
+  .textofundadores{
+    margin-bottom: -2%;
   }
 
-  .fotofundadores img{
-   width: 200px;
-   height: 200px;
-   border-radius: 100px;
-   margin-left: 250px;
-   margin-top: -30px;
-  }
- 
- .textofundadores{
-   font-size: 1em;
-   line-height: 90px;
-   margin-left: 115px;
-   text-align: center;
-  }
+
 }
 
 /********** Extra small devices only **********/
@@ -323,11 +286,11 @@ span.whatsapp{
     height: 20px;
   }
 
-  #collapsable-nav a { /* Collapsed nav menu text */
+  #collapsable-nav a { /* texto do menu clicável */
     font-size: 1.2em;
   }
 
-  #collapsable-nav a span { /* Collapsed nav menu glyph */
+  #collapsable-nav a span { /* Menu clicável */
     font-size: 1em;
     margin-right: 5px;
   }
@@ -354,75 +317,64 @@ span.whatsapp{
     margin-top: 30px;
     padding: 0;
   }
-
-  .idealizadores span{
-   text-align: center;
-   font-size: 1.1em;
-   margin-left: 220px;
-   margin-bottom: 0;
-   
-
+ 
+  .idealizadores{
+    margin-bottom: 140%;
   }
 
- .nomefundadores span{
-   font-size: 0.9em;
-   line-height: 80px;
-   margin-left: 220px;
-   color: #fff;
+  .tituloideal{
+    font-size: 1.7em;
   }
 
- .fotofundadores img{
-   width: 120px;
-   height: 120px;
-   border-radius: 100px;
-   margin-left: 245px;
-   margin-top: -5px;
+  .nomefundadores{
+    font-size: 1.2em;
   }
 
- .textofundadores{
-   font-size: 0.75em;
-   line-height: 70px;
-   margin-left: 125px;
-   text-align: center;
+  .fotofundadores{
+    width: 170px;
+  }
+
+  .footer-img{
+    width: 90px;
+  }
+
+  .footer-text{
+    font-size: 0.9em;
   }
 
 }
+
 
 @media (max-width: 479px) {
   /* Header */
   .navbar-brand h1 { /* Nome do time */
     padding-top: 5px;
     font-size: 6vw;
+    margin-left: auto;
   }
 
-  .idealizadores span{
-   text-align: center;
-   font-size: 1.1em;
-   margin-left: 80px;
-   margin-bottom: 0;
-
+  .idealizadores{
+    margin-bottom: 180%;
   }
 
- .nomefundadores span{
-   font-size: 0.9em;
-   line-height: 80px;
-   margin-left: 80px;
-   color: #fff;
+  .tituloideal{
+    font-size: 1.6em;
   }
 
- .fotofundadores img{
-   width: 120px;
-   height: 120px;
-   border-radius: 100px;
-   margin-left: 100px;
-   margin-top: -5px;
+  .nomefundadores{
+    font-size: 1.1em;
   }
 
- .textofundadores{
-   font-size: 0.6em;
-   line-height: 70px;
-   margin-left: 18px;
-   text-align: center;
+  .fotofundadores{
+    width: 150px;
+  }
+
+  .footer-img{
+    width: 70px;
+  }
+
+  .footer-text{
+    font-size: 0.8em;
   }
 
 
@@ -442,7 +394,7 @@ span.whatsapp{
     text-align: center;
   }
   .panel-footer section:nth-child(3) {
-    margin-bottom: 0; /* margin already exists on the whole row */
+    margin-bottom: 0; /* margin ja existe na row */
   }
   .panel-footer section hr {
     width: 50%;
