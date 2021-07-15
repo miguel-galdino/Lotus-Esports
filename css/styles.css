@@ -1,5 +1,5 @@
 body {
-  font-size: 16px;
+  font-size: 18px;
   color: #fff;
   background-color: #ff66b3; 
   font-family: 'Oxygen', sans-serif;
@@ -109,6 +109,7 @@ a:link, a:visited, a:hover, a:active {
 .textofundadores{
   margin-bottom: 10%;
   text-align: center;
+  font-size: 16px;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
@@ -262,6 +263,7 @@ span.whatsapp {
 
   .textofundadores{
     margin-bottom: -2%;
+    font-size: 16px;
   }
 
 
