@@ -1,6 +1,7 @@
 # Lotus E-sports
 
-Além de ser um projeto posso dizer que esse é o site oficial do meu time de E-sports, se você jogar alguns dos títulos de nossa lista podemos ser parceiros no trabalho e no jogo xD. Você pode acessar em: https://miguel-galdino.github.io/Lotus-Esports/
+Além de ser um projeto posso dizer que esse é o site oficial do meu time de E-sports, se você jogar alguns dos títulos de nossa lista podemos ser parceiros no trabalho e no jogo xD. 
+Você pode acessar em: https://miguel-galdino.github.io/Lotus-Esports/
 
 # Vamos ao site!
 
